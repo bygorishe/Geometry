@@ -1,5 +1,6 @@
-Запрос задание 3.
+## Запрос задание 3.
 
+```sql
 CREATE TABLE Products (
 	Id INT PRIMARY KEY,
 	"Name" TEXT NOTNULL
@@ -45,3 +46,4 @@ LEFT JOIN ProductCategories PC
 	ON P.Id = PC.ProductId
 LEFT JOIN Categories C
 	ON PC.CategoryId = C.Id;
+```
